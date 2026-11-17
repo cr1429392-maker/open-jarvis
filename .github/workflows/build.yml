@@ -1,4 +1,4 @@
-name: Build APK
+name:Build APK
 on: [workflow_dispatch]
 jobs:
   build:
@@ -14,4 +14,5 @@ jobs:
         with:
           name: open-jarvis-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+
           
